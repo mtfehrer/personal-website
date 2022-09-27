@@ -1,5 +1,29 @@
+@import "../../default.css";
+
+.about-body {
+    padding-top: calc(var(--header-height) * 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .about-intro {
-    padding-top: var(--header-height);
+    margin-bottom: 5rem;
+    width: 70vw;
+}
+
+.about-title {
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+.about-intro-inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-intro-text {
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
 .BU-photo {

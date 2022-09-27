@@ -1,0 +1,16 @@
+@import "../../default.css";
+
+.project-container {
+    background: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 70vh;
+    box-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+.project-image {
+    width: 50vh;
+    height: 50vh;
+}

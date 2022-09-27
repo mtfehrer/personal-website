@@ -9,6 +9,9 @@ import ContactBody from "./components/ContactBody/ContactBody";
 //instabase
 //halo lab
 
+//set scrollbar to top when redirectijng to a separate route
+//add shadow to experience grid
+//add gradient to experience grid
 //rename project to "michael-fehrer"
 //me at mountain photo
 //deploy to github pages

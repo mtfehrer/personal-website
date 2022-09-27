@@ -15,6 +15,7 @@ header {
 .header-title {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+    background-image: linear-gradient(to right, red, orange);
 }
 
 .header-side-content {

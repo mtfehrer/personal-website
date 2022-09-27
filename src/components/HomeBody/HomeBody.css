@@ -1,3 +1,5 @@
+@import "../../default.css";
+
 .home-body {
     padding-top: calc(var(--header-height) * 3);
     display: flex;
@@ -21,16 +23,10 @@
 }
 
 .intro-title {
-    background-color: red;
-    background-image: linear-gradient(to right, red, orange);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    text-shadow: -0.1rem -0.1rem black;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
 .intro-text {
-    color: orangered;
+    color: white;
     text-shadow: 0.1rem 0.1rem 0.1rem black;
 }

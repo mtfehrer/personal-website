@@ -3,7 +3,7 @@ import "./ExperienceChart.css";
 const ExperienceChart: React.FC = () => {
     return (
         <div className="container">
-            <h1>Programming Language Experience</h1>
+            <h1 className="title">Programming Language Experience</h1>
             <div className="experience-grid">
                 <div className="block"></div>
                 <div className="block">
