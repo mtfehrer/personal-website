@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header: React.FC = () => {
@@ -5,10 +6,18 @@ const Header: React.FC = () => {
         <header>
             <span className="header-title">Michael Fehrer</span>
             <div className="header-side-content">
-                <span>Home</span>
-                <span>About</span>
-                <span>Resume</span>
-                <span>Contact</span>
+                <Link to="/">
+                    <span className="side-content-text">Home</span>
+                </Link>
+                <Link to="/about">
+                    <span className="side-content-text">About</span>
+                </Link>
+                <Link to="/resume">
+                    <span className="side-content-text">Resume</span>
+                </Link>
+                <Link to="/contact">
+                    <span className="side-content-text">Contact</span>
+                </Link>
             </div>
         </header>
     );

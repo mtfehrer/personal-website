@@ -1,35 +1,28 @@
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import HomeBody from "./components/HomeBody/HomeBody";
+import AboutBody from "./components/AboutBody/AboutBody";
+import ContactBody from "./components/ContactBody/ContactBody";
+
+//ideas
+//instabase
+//halo lab
+
+//rename project to "michael-fehrer"
+//me at mountain photo
+//deploy to github pages
 
 const App: React.FC = () => {
     return (
         <div className="app">
             <Header />
-            <div className="home-body">
-                <div className="intro-container">
-                    <div>
-                        <h1>Hey, I'm Michael.</h1>
-                        <span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Vestibulum purus eros, porttitor eget aliquam
-                            id, gravida vel nunc.
-                        </span>
-                    </div>
-                    <img
-                        className="profile-image"
-                        src="profile-photo.jpg"
-                        alt="profile"
-                    ></img>
-                </div>
-                <h1>Hello</h1>
-                <h1>Hello</h1>
-                <h1>Hello</h1>
-                <h1>Hello</h1>
-                <h1>Hello</h1>
-                <h1>Hello</h1>
-                <h1>Hello</h1>
-                <h1>Hello</h1>
-            </div>
+            <Routes>
+                <Route path="/" element={<HomeBody />} />
+                <Route path="/about" element={<AboutBody />} />
+                <Route path="/resume" element={<h1>TEST</h1>} />
+                <Route path="/contact" element={<ContactBody />} />
+            </Routes>
             <Footer />
         </div>
     );

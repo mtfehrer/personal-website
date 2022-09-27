@@ -1,0 +1,36 @@
+.home-body {
+    padding-top: calc(var(--header-height) * 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 70vw;
+    margin-bottom: 5rem;
+}
+
+.profile-image {
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.intro-title {
+    background-color: red;
+    background-image: linear-gradient(to right, red, orange);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-shadow: -0.1rem -0.1rem black;
+}
+
+.intro-text {
+    color: orangered;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+}

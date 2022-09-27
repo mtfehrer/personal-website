@@ -13,6 +13,12 @@ footer {
 }
 
 .bottom-info {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bottom-info-text {
     font-weight: lighter;
     font-size: 0.5rem;
     display: flex;
