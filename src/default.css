@@ -12,6 +12,13 @@
     --header-height: 9vh;
 }
 
+.gradient-text {
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
 .fade-in {
     -webkit-animation: fadein 1s;
 }
@@ -27,9 +34,19 @@
     }
 }
 
-.gradient-text {
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+.slide {
+    animation: 1s ease-out 0s 1 slide;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.show {
+    transform: translateX(0);
 }
