@@ -47,9 +47,17 @@ const Projects: React.FC = () => {
                 image="maze game.gif"
                 alt="maze game"
             />
-            <h1>
-                And more on my <a href="https://github.com/mtfehrer">github</a>
-            </h1>
+            <div className="bottom-container">
+                <h1>
+                    And more on my{" "}
+                    <a
+                        href="https://github.com/mtfehrer"
+                        style={{ color: "white" }}
+                    >
+                        github
+                    </a>
+                </h1>
+            </div>
         </div>
     );
 };

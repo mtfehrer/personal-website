@@ -1,4 +1,6 @@
-import ExperienceChart from "../ExperienceChart/ExperienceChart";
+import ProgrammingChart from "../ProgrammingChart/ProgrammingChart";
+import WebFrameworkChart from "../WebFrameworkChart/WebFrameworkChart";
+import Chart from "../Chart/Chart";
 import DownArrow from "../DownArrow/DownArrow";
 import "./AboutBody.css";
 
@@ -19,7 +21,15 @@ const AboutBody: React.FC = () => {
                 </div>
             </div>
             <DownArrow />
-            <ExperienceChart />
+            <ProgrammingChart />
+            <WebFrameworkChart />
+            <Chart
+                title="test"
+                color="red"
+                rowLabels={["row1", "row2", "row3"]}
+                columnLabels={["col1", "col2", "col3", "col4"]}
+                barSizes={[1, 3, 4]}
+            />
         </div>
     );
 };

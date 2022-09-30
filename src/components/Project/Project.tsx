@@ -13,18 +13,6 @@ const Project: React.FC<Props> = ({
     image,
     alt,
 }: Props) => {
-    const animationElements = document.querySelectorAll("project-container");
-    console.log(animationElements);
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            entry.target.classList.toggle("show", entry.isIntersecting);
-        });
-    });
-
-    animationElements.forEach((e) => {
-        observer.observe(e);
-    });
     return (
         <div className="project-container">
             <h1 className="title">{title}</h1>

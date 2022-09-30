@@ -1,6 +1,6 @@
-import "./ExperienceChart.css";
+import "./WebFrameworkChart.css";
 
-const ExperienceChart: React.FC = () => {
+const WebFrameworkChart = () => {
     return (
         <div className="container">
             <h1 className="title">Programming Language Experience</h1>
@@ -96,4 +96,4 @@ const ExperienceChart: React.FC = () => {
     );
 };
 
-export default ExperienceChart;
+export default WebFrameworkChart;
