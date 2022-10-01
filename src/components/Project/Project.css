@@ -12,6 +12,12 @@
     box-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
+.project-title-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
 .title {
     font-size: 1.3rem;
 }
@@ -23,4 +29,13 @@
 .project-image {
     width: 50vw;
     height: calc(50vw * 9 / 16);
+}
+
+.external-link {
+    color: skyblue;
+    transition: 0.1s;
+}
+
+.external-link:hover {
+    color: pink;
 }

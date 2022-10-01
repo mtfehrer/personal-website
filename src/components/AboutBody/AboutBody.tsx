@@ -17,9 +17,9 @@ const AboutBody: React.FC = () => {
                         <span className="about-intro-text">
                             As a kid, I started out with simple command line
                             programs. Over time, I created games with greater
-                            complexity. Now, I'm working on larger projects and
-                            systems. I'm always eager to learn, especially when
-                            cooperating with others. I'm studying computer
+                            complexity. Now, I'm working on even larger projects
+                            and systems. I'm always eager to learn, especially
+                            when cooperating with others. I'm studying computer
                             science at{" "}
                             <span style={{ color: "rgb(0, 90, 67)" }}>
                                 Binghamton University
@@ -27,11 +27,7 @@ const AboutBody: React.FC = () => {
                             .
                         </span>
                     </div>
-                    <img
-                        className="BU-photo"
-                        src="BU photo2.jpg"
-                        alt="BU"
-                    ></img>
+                    <img className="BU-photo" src="BU photo.jpg" alt="BU"></img>
                 </div>
 
                 <ExperienceChart

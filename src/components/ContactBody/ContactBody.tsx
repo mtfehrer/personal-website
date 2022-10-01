@@ -21,7 +21,7 @@ const ContactBody: React.FC = () => {
                         LinkedIn:{" "}
                         <a
                             className="contact-link"
-                            href="linkedin.com/in/michael-fehrer-b13b47250"
+                            href="https://linkedin.com/in/michael-fehrer-b13b47250"
                         >
                             linkedin.com/in/michael-fehrer-b13b47250
                         </a>

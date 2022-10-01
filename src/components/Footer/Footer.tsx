@@ -10,11 +10,14 @@ const Footer: React.FC<Props> = ({ position }: Props) => {
     return (
         <footer className={position === "fixed" ? "fixed" : ""}>
             <div className="icon-container">
-                <a href="https://github.com/mtfehrer">
-                    <FaGithub style={{ color: "white" }} />
+                <a className="external-link" href="https://github.com/mtfehrer">
+                    <FaGithub />
                 </a>
-                <a href="https://linkedin.com/in/michael-fehrer-b13b47250">
-                    <FaLinkedin style={{ color: "white" }} />
+                <a
+                    className="external-link"
+                    href="https://linkedin.com/in/michael-fehrer-b13b47250"
+                >
+                    <FaLinkedin />
                 </a>
             </div>
             <span className="bottom-info">
