@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./Chart.css";
+import "./ExperienceChart.css";
 
 type Props = {
     title: string;

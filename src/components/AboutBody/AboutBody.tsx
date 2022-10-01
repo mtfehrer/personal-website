@@ -1,4 +1,5 @@
-import Chart from "../Chart/Chart";
+import ExperienceChart from "../ExperienceChart/ExperienceChart";
+import SkillsChart from "../SkillsChart/SkillsChart";
 import DownArrow from "../DownArrow/DownArrow";
 import "./AboutBody.css";
 
@@ -19,7 +20,7 @@ const AboutBody: React.FC = () => {
                 </div>
             </div>
             <DownArrow />
-            <Chart
+            <ExperienceChart
                 title="Programming Language Experience"
                 color="red"
                 rowLabels={["Python", "Javascript", "HTML/CSS", "Java", "C++"]}
@@ -31,7 +32,7 @@ const AboutBody: React.FC = () => {
                 ]}
                 barSizes={[6, 5, 5, 5, 4]}
             />
-            <Chart
+            <ExperienceChart
                 title="Web Framework Experience"
                 color="orangered"
                 rowLabels={["React", "Express js", "Vue js", "Flask"]}
@@ -42,6 +43,25 @@ const AboutBody: React.FC = () => {
                     "Expert",
                 ]}
                 barSizes={[5, 5, 4, 4]}
+            />
+            <SkillsChart
+                skills={[
+                    "Git/GitHub",
+                    "SQL",
+                    "Node.js",
+                    "Linux",
+                    "REST APIs",
+                    "MongoDB",
+                    "Docker",
+                    "JWT",
+                    "Typing",
+                    "OOP",
+                    "Game Design",
+                    "Databases",
+                    "Testing",
+                    "Problem Solving",
+                    "Algorithms",
+                ]}
             />
         </div>
     );
