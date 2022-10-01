@@ -9,10 +9,9 @@ const HomeBody: React.FC = () => {
                 <div>
                     <h1 className="intro-title">Hey, I'm Michael.</h1>
                     <span className="intro-text">
-                        I've been coding and developing software for years. I
-                        started out with simple command line programs, then I
-                        created games with greater complexity. Now I'm primarily
-                        focused with building websites and backend systems.
+                        I'm an avid coder. I've been programming and developing
+                        software for years. I'm primarily focused with building
+                        websites and backend systems.
                     </span>
                 </div>
                 <img

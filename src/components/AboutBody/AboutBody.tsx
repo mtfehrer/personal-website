@@ -10,14 +10,22 @@ const AboutBody: React.FC = () => {
     return (
         <div className="about-body">
             <div className="about-intro fade-in">
-                <h1 className="about-title">About</h1>
-                <div className="about-intro-inner-container">
+                <div className="about-intro-left-container">
+                    <h1 className="about-title">About</h1>
                     <span className="about-intro-text">
-                        I started coding as a hobby; now I'm studying computer
-                        science at Binghamton University
+                        As a kid, I started out with simple command line
+                        programs. Over time, I created games with greater
+                        complexity. Now, I'm working on larger projects and
+                        systems. I'm always eager to learn, especially when
+                        cooperating with others. I'm studying computer science
+                        at{" "}
+                        <span style={{ color: "rgb(0, 90, 67)" }}>
+                            Binghamton University
+                        </span>
+                        .
                     </span>
-                    <img className="BU-photo" src="BU photo.jpg" alt="BU"></img>
                 </div>
+                <img className="BU-photo" src="BU photo2.jpg" alt="BU"></img>
             </div>
             <DownArrow />
             <ExperienceChart

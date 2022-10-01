@@ -5,7 +5,7 @@
     width: 80vw;
     height: 70vh;
     grid-template-columns: repeat(5, 1fr);
-    border: 10px solid yellow;
+    border: 10px solid rgb(255, 183, 0);
     gap: 0.5rem;
     padding: 1rem;
     box-shadow: 0.1rem 0.1rem 0.1rem black;

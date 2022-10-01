@@ -9,13 +9,13 @@ import ContactBody from "./components/ContactBody/ContactBody";
 //instabase
 //halo lab
 
-//have projects slide in from left
 //change binghamton university text to dark green
 //add skills in some sort of list
 //set scrollbar to top when redirectijng to a separate route
 //add shadow to experience grid
 //add gradient to experience grid
 //rename project to "michael-fehrer"
+//change website image and name
 //me at mountain photo
 //deploy to github pages
 
