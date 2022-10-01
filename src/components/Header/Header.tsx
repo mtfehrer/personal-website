@@ -12,9 +12,9 @@ const Header: React.FC = () => {
                 <Link to="/about">
                     <span className="side-content-text">About</span>
                 </Link>
-                <Link to="/resume">
+                <a href="resume.pdf" download="resume.pdf">
                     <span className="side-content-text">Resume</span>
-                </Link>
+                </a>
                 <Link to="/contact">
                     <span className="side-content-text">Contact</span>
                 </Link>

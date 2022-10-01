@@ -1,22 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
 import HomeBody from "./components/HomeBody/HomeBody";
 import AboutBody from "./components/AboutBody/AboutBody";
 import ContactBody from "./components/ContactBody/ContactBody";
+import NotFound from "./components/NotFound/NotFound";
 
-//ideas
-//instabase
-//halo lab
-
-//change binghamton university text to dark green
-//add skills in some sort of list
-//set scrollbar to top when redirectijng to a separate route
-//add shadow to experience grid
-//add gradient to experience grid
 //rename project to "michael-fehrer"
-//change website image and name
-//me at mountain photo
+//delete unnecesary photos
 //deploy to github pages
 
 const App: React.FC = () => {
@@ -26,10 +16,9 @@ const App: React.FC = () => {
             <Routes>
                 <Route path="/" element={<HomeBody />} />
                 <Route path="/about" element={<AboutBody />} />
-                <Route path="/resume" element={<h1>TEST</h1>} />
                 <Route path="/contact" element={<ContactBody />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
-            <Footer />
         </div>
     );
 };

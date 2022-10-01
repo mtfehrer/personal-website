@@ -1,18 +1,21 @@
-import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import "./Footer.css";
 
-const Footer = () => {
+type Props = {
+    position: string;
+};
+
+const Footer: React.FC<Props> = ({ position }: Props) => {
     return (
-        <footer>
+        <footer className={position === "fixed" ? "fixed" : ""}>
             <div className="icon-container">
-                <Link to="/">
+                <a href="https://github.com/mtfehrer">
                     <FaGithub style={{ color: "white" }} />
-                </Link>
-                <Link to="/">
+                </a>
+                <a href="https://linkedin.com/in/michael-fehrer-b13b47250">
                     <FaLinkedin style={{ color: "white" }} />
-                </Link>
+                </a>
             </div>
             <span className="bottom-info">
                 <span className="bottom-info-text">Built with React</span>
