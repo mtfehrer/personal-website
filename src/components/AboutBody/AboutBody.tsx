@@ -1,5 +1,3 @@
-import ProgrammingChart from "../ProgrammingChart/ProgrammingChart";
-import WebFrameworkChart from "../WebFrameworkChart/WebFrameworkChart";
 import Chart from "../Chart/Chart";
 import DownArrow from "../DownArrow/DownArrow";
 import "./AboutBody.css";
@@ -21,14 +19,29 @@ const AboutBody: React.FC = () => {
                 </div>
             </div>
             <DownArrow />
-            <ProgrammingChart />
-            <WebFrameworkChart />
             <Chart
-                title="test"
+                title="Programming Language Experience"
                 color="red"
-                rowLabels={["row1", "row2", "row3"]}
-                columnLabels={["col1", "col2", "col3", "col4"]}
-                barSizes={[1, 3, 4]}
+                rowLabels={["Python", "Javascript", "HTML/CSS", "Java", "C++"]}
+                columnLabels={[
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced",
+                    "Expert",
+                ]}
+                barSizes={[6, 5, 5, 5, 4]}
+            />
+            <Chart
+                title="Web Framework Experience"
+                color="orangered"
+                rowLabels={["React", "Express js", "Vue js", "Flask"]}
+                columnLabels={[
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced",
+                    "Expert",
+                ]}
+                barSizes={[5, 5, 4, 4]}
             />
         </div>
     );

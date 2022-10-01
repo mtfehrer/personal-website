@@ -32,19 +32,29 @@ const Chart: React.FC<Props> = ({
             >
                 <div className="placeholder"></div>
                 {columnLabels.map((l) => {
-                    return <div className="column-header">{l}</div>;
+                    return <div className="column-header block">{l}</div>;
                 })}
                 {rowLabels.map((r, i) => {
                     return (
                         <>
-                            <div className="row-header">{r}</div>
+                            <div className="row-header block">{r}</div>
                             <div
-                                className="bar"
+                                className="bar block"
                                 style={{
                                     gridColumn: `2 / ${barSizes[i]}`,
                                     backgroundColor: `${color}`,
                                 }}
                             ></div>
+                            {barSizes[i] < columnLabels.length + 2 ? (
+                                <div
+                                    className="placeholder"
+                                    style={{
+                                        gridColumn: `${barSizes[i]} / ${
+                                            columnLabels.length + 2
+                                        }`,
+                                    }}
+                                ></div>
+                            ) : null}
                         </>
                     );
                 })}
