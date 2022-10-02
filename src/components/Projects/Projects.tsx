@@ -9,49 +9,49 @@ const Projects: React.FC = () => {
                 title="Tower Defense Game"
                 description="Built with React and Typescript"
                 link="https://github.com/mtfehrer/tower-defense-game-react"
-                image="tower defense.gif"
+                image={process.env.PUBLIC_URL + "/images/tower defense.gif"}
                 alt="tower defense game"
             />
             <Project
                 title="2D Shooter Game"
                 description="Developed with the pygame engine in python"
                 link="https://github.com/mtfehrer/the-shooter"
-                image="shooter game.gif"
+                image={process.env.PUBLIC_URL + "/images/shooter game.gif"}
                 alt="2D Shooter Game"
             />
             <Project
                 title="Forum Website"
                 description="Built with the MERN stack"
                 link="https://github.com/mtfehrer/forum-react"
-                image="forum site.png"
+                image={process.env.PUBLIC_URL + "/images/forum site.png"}
                 alt="forum website"
             />
             <Project
                 title="Pokemon Battle"
                 description="Created using the curses module in python."
                 link="https://github.com/mtfehrer/pokemon-battle"
-                image="simple pokemon.gif"
+                image={process.env.PUBLIC_URL + "/images/simple pokemon.gif"}
                 alt="pokemon game"
             />
             <Project
                 title="FPS Game"
                 description="Coded using the ursina module in python."
                 link="https://github.com/mtfehrer/fps-game"
-                image="fps game.gif"
+                image={process.env.PUBLIC_URL + "/images/fps game.gif"}
                 alt="fps game"
             />
             <Project
                 title="Sniper Game"
                 description="Developed with the pygame engine in python"
                 link="https://github.com/mtfehrer/the-sniper"
-                image="sniper game.gif"
+                image={process.env.PUBLIC_URL + "/images/sniper game.gif"}
                 alt="sniper game"
             />
             <Project
                 title="Maze Game"
                 description="Programmed with the pygame engine in python"
                 link="https://github.com/mtfehrer/the-maze"
-                image="maze game.gif"
+                image={process.env.PUBLIC_URL + "/images/maze game.gif"}
                 alt="maze game"
             />
             <div className="bottom-container">

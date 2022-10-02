@@ -27,7 +27,11 @@ const AboutBody: React.FC = () => {
                             .
                         </span>
                     </div>
-                    <img className="BU-photo" src="BU photo.jpg" alt="BU"></img>
+                    <img
+                        className="BU-photo"
+                        src={process.env.PUBLIC_URL + "/images/BU photo.jpg"}
+                        alt="BU"
+                    ></img>
                 </div>
 
                 <ExperienceChart

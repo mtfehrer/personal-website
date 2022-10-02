@@ -18,7 +18,9 @@ const HomeBody: React.FC = () => {
                     </div>
                     <img
                         className="profile-image"
-                        src="profile-photo.jpg"
+                        src={
+                            process.env.PUBLIC_URL + "/images/profile-photo.jpg"
+                        }
                         alt="profile"
                     ></img>
                 </div>
