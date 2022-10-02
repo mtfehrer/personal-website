@@ -1,6 +1,6 @@
 {
     "homepage": "https://mtfehrer.github.io/portfolio",
-    "name": "personal-website",
+    "name": "portfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
