@@ -1,6 +1,6 @@
 # portfolio
 
-My personal website
+My personal website,
 URL: mtfehrer.github.io/portfolio
 
 ![portfolio demo](https://user-images.githubusercontent.com/112262472/193462461-a621dc2e-5606-49fc-8948-fc222326c550.PNG)
