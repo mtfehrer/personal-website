@@ -31,34 +31,29 @@ const AboutBody: React.FC = () => {
                 <ExperienceChart
                     title="Programming Language Experience"
                     color="white"
-                    rowLabels={["Python", "JavaScript", "HTML/CSS", "Java", "C++"]}
+                    rowLabels={["Python", "JavaScript", "HTML/CSS", "Java", "C++", "C", "SQL"]}
                     columnLabels={["Beginner", "Intermediate", "Advanced", "Expert"]}
-                    barSizes={[6, 5, 5, 5, 4]}
+                    barSizes={[6, 5, 5, 5, 5, 4, 4]}
                 />
                 <ExperienceChart
                     title="Web Framework Experience"
                     color="white"
-                    rowLabels={["React.js", "Express.js", "Vue.js", "Flask"]}
+                    rowLabels={["React.js", "Express.js", "Spring Boot", "Angular", "Flask"]}
                     columnLabels={["Beginner", "Intermediate", "Advanced", "Expert"]}
-                    barSizes={[5, 5, 4, 4]}
+                    barSizes={[5, 5, 4, 4, 4]}
                 />
                 <SkillsChart
                     skills={[
-                        "Git/GitHub",
-                        "SQL",
-                        "Node.js",
                         "Linux",
-                        "REST APIs",
-                        "MongoDB",
+                        "Git",
+                        "Node.js",
                         "Docker",
-                        "JWT",
-                        "Typing",
-                        "OOP",
-                        "Game Design",
-                        "Databases",
-                        "Testing",
-                        "Problem Solving",
-                        "Algorithms",
+                        "AWS",
+                        "REST APIs",
+                        "MySQL",
+                        "MongoDB",
+                        "Visual Studio",
+                        "IntelliJ IDEA",
                     ]}
                 />
             </div>
