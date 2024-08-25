@@ -15,16 +15,10 @@ const AboutBody: React.FC = () => {
                     <div className="about-intro-left-container">
                         <h1 className="about-title">About</h1>
                         <span className="about-intro-text">
-                            As a kid, I started out with simple command line
-                            programs. Over time, I created games with greater
-                            complexity. Now, I'm working on even larger projects
-                            and systems. I'm always eager to learn, especially
-                            when cooperating with others. I'm studying computer
-                            science at{" "}
-                            <span style={{ color: "rgb(0, 90, 67)" }}>
-                                Binghamton University
-                            </span>
-                            .
+                            From command-line scripts to software development, I have always been
+                            driven by a passion for learning and expanding my programming skills.
+                            Outside of coding, I find balance and inspiration through meditation,
+                            exploring the outdoors, and immersing myself in books.
                         </span>
                     </div>
                     <img
@@ -36,32 +30,16 @@ const AboutBody: React.FC = () => {
 
                 <ExperienceChart
                     title="Programming Language Experience"
-                    color="red"
-                    rowLabels={[
-                        "Python",
-                        "Javascript",
-                        "HTML/CSS",
-                        "Java",
-                        "C++",
-                    ]}
-                    columnLabels={[
-                        "Beginner",
-                        "Intermediate",
-                        "Advanced",
-                        "Expert",
-                    ]}
+                    color="white"
+                    rowLabels={["Python", "JavaScript", "HTML/CSS", "Java", "C++"]}
+                    columnLabels={["Beginner", "Intermediate", "Advanced", "Expert"]}
                     barSizes={[6, 5, 5, 5, 4]}
                 />
                 <ExperienceChart
                     title="Web Framework Experience"
-                    color="orangered"
-                    rowLabels={["React", "Express js", "Vue js", "Flask"]}
-                    columnLabels={[
-                        "Beginner",
-                        "Intermediate",
-                        "Advanced",
-                        "Expert",
-                    ]}
+                    color="white"
+                    rowLabels={["React.js", "Express.js", "Vue.js", "Flask"]}
+                    columnLabels={["Beginner", "Intermediate", "Advanced", "Expert"]}
                     barSizes={[5, 5, 4, 4]}
                 />
                 <SkillsChart
