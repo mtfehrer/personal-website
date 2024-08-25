@@ -11,16 +11,13 @@ const HomeBody: React.FC = () => {
                     <div>
                         <h1 className="intro-title">Hey, I'm Michael.</h1>
                         <span className="intro-text">
-                            I'm an avid coder. I've been programming and
-                            developing software for years. I'm primarily focused
-                            with building websites and backend systems.
+                            I’m a computer science student at Binghamton University with experience
+                            in software engineering.
                         </span>
                     </div>
                     <img
                         className="profile-image"
-                        src={
-                            process.env.PUBLIC_URL + "/images/profile-photo.jpg"
-                        }
+                        src={process.env.PUBLIC_URL + "/images/profile-photo.jpg"}
                         alt="profile"
                     ></img>
                 </div>
