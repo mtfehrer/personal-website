@@ -13,11 +13,11 @@ const Projects: React.FC = () => {
                 alt="tower defense game"
             />
             <Project
-                title="2D Shooter Game"
+                title="2D Arcade Game"
                 description="Developed with the Pygame engine in Python."
                 link="https://github.com/mtfehrer/the-shooter"
                 image={process.env.PUBLIC_URL + "/images/shooter game.gif"}
-                alt="2D Shooter Game"
+                alt="2D Arcade Game"
             />
             <Project
                 title="Forum Website"
