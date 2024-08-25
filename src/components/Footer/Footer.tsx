@@ -22,7 +22,7 @@ const Footer: React.FC<Props> = ({ position }: Props) => {
             </div>
             <span className="bottom-info">
                 <span className="bottom-info-text">Built with React</span>
-                <span className="bottom-info-text">Michael Fehrer 2022-2024</span>
+                <span className="bottom-info-text">2022 - 2024</span>
             </span>
         </footer>
     );
