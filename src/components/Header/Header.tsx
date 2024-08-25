@@ -12,12 +12,6 @@ const Header: React.FC = () => {
                 <Link to="/about">
                     <span className="side-content-text">About</span>
                 </Link>
-                <a
-                    href={process.env.PUBLIC_URL + "/resume.pdf"}
-                    download={"resume.pdf"}
-                >
-                    <span className="side-content-text">Resume</span>
-                </a>
                 <Link to="/contact">
                     <span className="side-content-text">Contact</span>
                 </Link>
