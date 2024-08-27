@@ -4,9 +4,6 @@ import Footer from "../Footer/Footer";
 import DownArrow from "../DownArrow/DownArrow";
 import "./AboutBody.css";
 
-//add programming language experience chart
-//add BU image
-
 const AboutBody: React.FC = () => {
     return (
         <>
